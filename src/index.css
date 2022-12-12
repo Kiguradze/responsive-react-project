@@ -13,10 +13,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  width: 100%;
 }
 
 .navbar {
   height: 100px;
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -264,8 +266,16 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-  .products {
+  .App {
     width: 1024px;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .products {
+    width: 100%;
   }
   .product {
     width: 25%;
@@ -283,11 +293,19 @@ body {
   .single-product {
     overflow: visible;
   }
+
+  .footer {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  .products {
+  .App {
     width: 768px;
+  }
+
+  .products {
+    width: 100%;
   }
   .product {
     width: 45%;
@@ -296,6 +314,10 @@ body {
 }
 
 @media only screen and (max-width: 425px) {
+  .App {
+    width: 425px;
+  }
+
   .hamburger {
     display: block;
   }
@@ -353,8 +375,12 @@ body {
   }
 }
 @media only screen and (max-width: 375px) {
-  .products {
+  .App {
     width: 375px;
+  }
+
+  .products {
+    width: 100%;
   }
 
   .single-product {
@@ -367,8 +393,12 @@ body {
 }
 
 @media only screen and (max-width: 320px) {
-  .products {
+  .App {
     width: 320px;
+  }
+
+  .products {
+    width: 100%;
   }
 
   .single-product {
