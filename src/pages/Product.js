@@ -14,7 +14,7 @@ const Product = () => {
         setProduct(product);
         setIsPending(false);
       });
-  });
+  }, [id]);
 
   return isPending ? (
     <div className="loading">

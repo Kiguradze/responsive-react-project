@@ -343,9 +343,21 @@ body {
   .single-product__img {
     max-width: 100%;
   }
+
+  .footer ul li a {
+    font-size: 48px;
+  }
+
+  .error-page {
+    font-size: 16px;
+  }
 }
 @media only screen and (max-width: 375px) {
   .products {
+    width: 375px;
+  }
+
+  .single-product {
     width: 375px;
   }
 
@@ -356,6 +368,10 @@ body {
 
 @media only screen and (max-width: 320px) {
   .products {
+    width: 320px;
+  }
+
+  .single-product {
     width: 320px;
   }
 
